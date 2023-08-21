@@ -50,6 +50,8 @@ class Auto:
 
             if(asiento != None):
                 numeroAsientos += 1
+        
+        return numeroAsientos
     
     def verificarIntegridad(self):
 
